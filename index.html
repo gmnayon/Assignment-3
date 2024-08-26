@@ -101,7 +101,7 @@
 
     <!-- Main Section -->
     <main>
-      <!-- Design Container -->
+      <!-- Design Section -->
       <section class="bg-[#F4F4F4]">
         <div class="hero md:container mx-auto relative">
           <div class="hero-content flex-col lg:flex-row my-24">
@@ -269,8 +269,59 @@
           </div>
         </div>
       </section>
+      <!-- Team Section -->
+      <section>
+        <div class="md:container mx-auto text-center">
+          <h1 class="text-4xl font-bold">Meet our Team</h1>
+          <p class="py-6 leading-7">We're a dynamic group of individuals who are passionate about what we do.</p>
+          <div class="grid lg:flex justify-center lg:justify-around space-y-5">
+            <!-- Team 1 -->
+            <div class="card bg-base-100 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./assets/team1.jpg" alt="Shoes" class="w-60 h-60 mt-3 rounded-full"/>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Alex Johnson</h2>
+                <p>CEO & Founder</p>
+                <div class="space-x-2 text-2xl">
+                  <a href=""><i class="fa-brands fa-square-x-twitter text-2xl"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Team 2 -->
+            <div class="card bg-base-100 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./assets/team2.jpg" alt="Shoes" class="w-60 h-60 rounded-full"/>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Michael Adams</h2>
+                <p>Chief Financial Officer (CFO)</p>
+                <div class="space-x-2 text-2xl">
+                  <a href=""><i class="fa-brands fa-square-x-twitter text-2xl"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Team 3 -->
+            <div class="card bg-base-100 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./assets/team3.jpg" alt="Shoes" class="w-60 h-60 rounded-full"/>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">James Walker</h2>
+                <p>Chief Design Officer (CDO)</p>
+                <div class="space-x-2 text-2xl">
+                  <a href=""><i class="fa-brands fa-square-x-twitter text-2xl"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Discuss Section -->
-      <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat mt-20 py-20">
+      <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat mt-20 py-20 border-8 border-white">
         <div class="md:container mx-auto text-center">
           <a class="bg-[#ABEF5F33] rounded-full py-1 px-5">
             <i class="fa-solid fa-arrow-right-long p-2 rounded-full"></i>
@@ -280,13 +331,13 @@
           <p class="py-6 leading-7">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
           <!-- Contact Form -->
           <div class="space-y-5 px-3 lg:px-0">
-            <div class="lg:flex justify-center space-y-3 gap-5">
-              <input type="text" placeholder="First Name*" class="input input-bordered w-full lg:max-w-xs rounded-full" />
-              <input type="text" placeholder="Last Name*" class="input input-bordered w-full lg:max-w-xs rounded-full" />
+            <div class="lg:flex justify-center  lg:gap-5">
+              <input type="text" placeholder="First Name*" class="input input-bordered w-full lg:max-w-xs rounded-full mb-3"/>
+              <input type="text" placeholder="Last Name*" class="input input-bordered w-full lg:max-w-xs rounded-full"/>
             </div>
-            <div class="lg:flex justify-center space-y-3 gap-5">
-              <input type="text" placeholder="Email Number*" class="input input-bordered w-full lg:max-w-xs rounded-full" />
-              <input type="text" placeholder="Phone Number*" class="input input-bordered w-full lg:max-w-xs rounded-full" />
+            <div class="lg:flex justify-center gap-5">
+              <input type="text" placeholder="Email Number*" class="input input-bordered w-full lg:max-w-xs rounded-full mb-3"/>
+              <input type="text" placeholder="Phone Number*" class="input input-bordered w-full lg:max-w-xs rounded-full"/>
             </div>
             <div>
                 <textarea class="w-full max-w-2xl rounded-2xl px-3.5 py-2" rows="6" placeholder="Write your message here" ></textarea>
@@ -325,7 +376,6 @@
               </a>
         </div>
       </div>
-      
     </footer>
 </body>
 </html>
